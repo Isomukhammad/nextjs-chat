@@ -56,7 +56,10 @@ const Sidebar = () => {
                 <Grid 
                     container 
                     alignItems='center'
-                    sx = {{fontWeight: '500'}}
+                    sx = {{
+                        fontWeight: '500', 
+                        flexDirection: 'row'
+                    }}
                 >
                     <Avatar src = {user.photoURL} sx = {{marginRight: '1em'}}/>
                     <div>{user.displayName}</div>

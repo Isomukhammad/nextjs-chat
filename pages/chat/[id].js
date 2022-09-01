@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 import Head from "next/head";
 import { useRouter } from "next/router";
 
@@ -23,9 +23,7 @@ import {
     Typography 
 } from "@mui/material";
 import styles from './chat.module.scss';
-import getOtherEmail from "../../utils/getOtherEmail";
 import Bottombar from "../../components/bottombar/bottombar.component";
-import { useEffect } from "react";
 
 const Chat = () => {
     const router = useRouter();
