@@ -1,0 +1,16 @@
+.message{
+    margin: 1em;
+    width: fit-content;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.friendmessage{
+    background-color: #BBDEFB;
+}
+
+.yourmessage{
+    background-color: #C8E6C9;
+    align-items: flex-end;
+    align-self: flex-end;
+}

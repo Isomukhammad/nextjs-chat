@@ -1,0 +1,23 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100vh;
+
+    .messages {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        overflow-y: scroll;
+
+        &::-webkit-scrollbar { 
+            display: none;  /* Safari and Chrome */
+        }
+    }
+}
+
+.chats {
+    overflow-y: scroll;
+}
+
+
