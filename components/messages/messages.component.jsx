@@ -13,7 +13,7 @@ const Messages = ({props}) => {
     return(
         <>
         {props?.map(prop => (
-            <div className = {`${styles.message} ${email === prop.sender ? styles.yourmessage : styles.friendmessage}`}>{prop.text}</div>
+            <div key = {Math.random()} className = {`${styles.message} ${email === prop.sender ? styles.yourmessage : styles.friendmessage}`}>{prop.text}</div>
         ))}
         </>
     )

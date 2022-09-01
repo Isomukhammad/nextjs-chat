@@ -60,7 +60,7 @@ const Chat = () => {
                 <Topbar email = {chat}/>
                 
                 <Grid className={styles.messages} flex = '1' overflow = 'scroll'>
-                    <Messages key = {Math.random()} props = {messages}/>
+                    <Messages props = {messages}/>
                     <div ref = {bottomOfChat}></div>
                 </Grid>
 
